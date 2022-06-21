@@ -49,3 +49,6 @@ docker build -t nome-image-node .
 docker run -p 3000:3000 -d --name container-node nome-image-node
 # Remover tudo que não está sendo utilizado:
 docker system prune
+# Docker daemon | docker client
+daemon = processo rodando (Automático para o linux)
+client = executável para comunicação no daemon
